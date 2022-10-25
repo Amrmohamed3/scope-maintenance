@@ -1,0 +1,354 @@
+img {
+    width: 100%;
+}
+
+.first{
+    padding-left: 30px;
+    position: fixed;
+}
+.first img{
+    max-width: 150px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.the-intwo{
+    padding-top: 30px;
+    position: relative;
+}
+.the-in{
+    padding-top: 30px;
+
+}
+.the-intwo ul{
+    position: absolute;
+    left:20%;
+}
+.tab-content{
+    padding-top: 30px ;
+}
+.bt{
+    margin-top: 40px;
+}
+.active .enjoy{
+    position: relative;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.enjoy .over {
+    background-color: rgba(0,0 , 0, .7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: all 1s;
+}
+.enjoy img {
+    transition: 1s;
+}
+.enjoy .over .word {
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    font-family: "Lato";
+}
+.enjoy:hover .over {
+    opacity: 1;
+}
+.enjoy:hover img {
+    transform: scale(1.1);
+}
+a{
+    text-decoration: none !important;
+    color: #949494 !important;
+    border-top:none !important;
+    border-left:none !important ;
+    border-right: none !important;
+}
+.active .enjoy-two{
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+.enjoy-two .over-two{
+    background-color: rgba(0,0 , 0, .5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: all 1s;
+}
+.enjoy-two img{
+    transition: 1s;
+}
+.enjoy-two:hover .over-two{
+opacity: 1;
+}
+.enjoy-two:hover img{
+transform: scale(1.1);
+}
+.card {
+margin-bottom: 10px;
+border: none !important;
+}
+.card .card-title{
+text-align: center;
+font-family: "Lato";
+}
+.word-one{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #fff;
+    font-size: 15px;
+    font-family: "Lato";
+}
+.active .enjoy-three{
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10px;
+}
+.enjoy-three .over-three{
+    background-color: rgba(0,0 , 0, .2);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 1;
+    transition: all 1s;
+}
+.enjoy-three img{
+    transition: 1s;
+}
+.enjoy-three:hover .over-three{
+opacity: 0;
+}
+.enjoy-three:hover img{
+transform: scale(1.1);}
+footer{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+footer .mini{
+    float: right;
+}
+footer i{
+    color: #818181;
+    background: rgba(0,0,0,0.08);
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 16px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+}
+footer p{
+    margin-top: 10px;
+    font-size: 15px;
+    color: #777;
+}
+.fa-facebook-f:hover{
+    background-color: #3b5998 !important;
+    color: #fff !important;
+}
+.fa-google:hover{
+    background-color: #dd4b39 !important;
+    color: #fff !important;
+}
+.fa-linkedin-in:hover{
+    background-color: #007bb5 !important;
+    color: #fff !important;
+}
+.fa-twitter:hover{
+    background-color: #00aced !important;
+    color: #fff !important;
+}
+.active .enjoy-four{
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10px;
+}
+.enjoy-four .over-four{
+
+    position: absolute;
+    top: 80%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+}
+
+.enjoy-four:hover .over-four{
+opacity: 1;
+background-color: #fff;
+animation-name:first ;
+animation-duration: 1s;
+}
+@keyframes first{
+ from {
+    top:100%;
+ }
+ to{
+     top: 80%;
+ }
+}
+
+.word-four{
+    float: left;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.word-four h4{
+    font-size: 19px;
+    margin-bottom: 2px;
+    font-family: "Lato";
+    color: #303030;
+}
+.word-four p{
+    color: #888;
+    font-size: 15px;
+    font-family: "Lato";
+    font-weight: 400;
+
+}
+.icon-one{
+    float: right;
+    color:  rgba(0,0,0,0.3);
+    padding-top: 20px;
+}
+
+.active .enjoy-two{
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+.enjoy-two .over-two{
+    background-color: rgba(0,0 , 0, .5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: all 1s;
+}
+.enjoy-two img{
+    transition: 1s;
+}
+.enjoy-two:hover .over-two{
+opacity: 1;
+}
+.enjoy-two:hover img{
+transform: scale(1.1);
+}
+.card {
+margin-bottom: 10px;
+border: none !important;
+}
+.card .card-title{
+text-align: center;
+font-family: "Lato";
+}
+.enjoy-two .over-two .icon {
+text-align: center;
+color: #333;
+position: absolute;
+top: 45%;
+left: 36%;
+}
+.enjoy-two .over-two .icon span, .enjoy-two .over-two .icon-one span{
+}
+.enjoy-two .over-two .icon-one {
+text-align: center;
+color: #333;
+position: absolute;
+top: 38%;
+left: 38%;
+}
+.enjoy-two .over-two .icon i{
+background-color: rgba(255,255,255,0.8);
+padding: 15px;
+border-radius: 50%;
+font-size: 16px;
+margin-bottom: 15px;
+}
+.enjoy-two .over-two .icon-one i{
+background-color: rgba(255,255,255,0.8);
+padding: 15px;
+border-radius: 50%;
+font-size: 16px;
+margin-bottom: 15px;
+}
+.anything .ab-title{
+    height: 220px;
+    position: relative;
+}
+.anything .ab-title .title-one{
+    position: absolute;
+    top: 20%;
+    font-size: 24px;
+    color: #303030;
+    font-family: "Lato";
+
+}
+.anything img{
+    max-width: 100%;
+}
+.anything .man{
+    padding-top: 100px;
+    padding-right:0% !important ;
+}
+.anything .man h3{
+    color: #303030;
+    font-family: "Lato";
+    margin-bottom: 20px;
+}
+.anything .man p{
+    margin-bottom: 20px;
+    color: #686868;
+    font-family: "Lato";
+}
+.anything .ab-blog .card .address{
+    color: #aaa;
+    font-size: 13px;
+    font-family: "Lato";
+    margin-bottom: 10px !important;
+}
+.anything .ab-blog .card .parag{
+    font-size: 15px;
+    font-family: "Lato";
+    color: #686868;
+    margin-bottom: 15px;
+}
+.anything .ab-blog .card a{
+    text-decoration: none;
+    color: #666;
+    font-size: 14px;
+    font-family: "Lato";
+
+}
+.anything .ab-blog .card i{
+    color: #666;
+    font-size: 14px;
+}
+.anything .ab-blog .card .ab-hov:hover{
+    color: black !important;
+}

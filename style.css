@@ -1,0 +1,406 @@
+html, body {
+    height: 100%;
+    color: #666666;
+    font-family: "Open Sans", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    scroll-behavior: smooth;
+
+  }
+
+  
+
+  .navss {
+    background-image: url(image/banner.png.webp);
+        -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+  .navss:before {
+    content: "";
+    position: absolute;
+    left: 0; 
+    right: 0;
+    top: 0; 
+    bottom: 0;
+    background: rgba(23, 92, 254, 0.397);
+  }
+    .klam{
+      position: absolute;
+      top: 40%;
+      left: 28%;
+      text-align: center;
+       font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+       font-weight: 200;
+    }
+    .navbar-inverse{
+      background-color: rgba(2, 85, 180, 0.532);
+      border: none;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    } 
+    .navbar-inverse .navbar-brand {
+      color: #fdfdfef7;
+  } 
+     .nav{
+      float: right;
+      padding-right: 150px;
+    } 
+    .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+      color: #fff;
+       background-color: #0040ff79;
+      } 
+    .nav li{
+        margin-right: 30px;
+       } 
+     .nav li a{
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+      }
+    .klam h1{
+      color: #ffffff46;
+      font-size: 80px;
+      background: transparent;
+    }
+
+  .container {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+
+
+  /* -----------------login------------------- */
+
+  /* ---------------------------end header-------------------------------- */
+
+  .main .min .im{
+    float: left;
+    margin-right: 30px;
+    
+  }
+
+  .main .min .abt{
+    padding-left: 30px;
+    padding-top: 40px;
+    
+  }
+  .main .min .abt h1{
+    color: rgb(46, 46, 46);
+    font-size: 60px;
+    margin-bottom: 40px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .main .min .abt h4{
+    color: rgb(87, 87, 87);
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .main .min .abt p{
+    color: rgb(87, 87, 87);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  .mind{
+    background-image: url(image/department.jpg.webp);
+    height: 1100px;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .mind .min .im {
+    float: right;
+    background-color: white;
+    padding: 20px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  .mind .min .im img{
+    width: 100%;
+    height:350px;
+  }
+  .mind .min .abt {
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 20px;
+    padding-bottom: 177px;
+  }
+  .mind .min .abt h1{
+    color: rgb(46, 46, 46);
+    font-size: 60px;
+    margin-bottom: 40px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .mind .min .abt p{
+    color: rgb(87, 87, 87);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+  }
+  .mind .med{
+    padding-top: 10px;
+  }
+
+
+  /* -------------------------------------------------------------- */
+
+/* ------------------------employees section------------------------------- */
+.row{
+    display: flex; 
+    justify-content:space-between;
+   
+}
+ .colcard{
+    width: 20%;
+  }
+  .employees{
+    margin-bottom: 80px;
+    margin-top: 80px;
+
+  }
+.employees .employe .head{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.employees .employe .row .card .card-body h5{
+    color: #232222;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.employees .employe .row .card .card-body p{
+    color: #2b2a2a;
+    padding-bottom: 20px;
+}
+.employees .employe .row .card .card-body .buttony{
+    text-align: center;
+}
+.employees .employe .row .card .card-body .btn{
+border: 2px solid rgb(0, 44, 82);
+padding-left: 20px;
+padding-right: 20px;
+background-color: rgba(6, 18, 251, 0.829);
+color: white;
+}
+.employe .row {
+  margin-right: 0px;
+  margin-left: -15px;
+}
+.employe .forimg{
+    position: relative;
+    height: auto;
+    overflow: hidden;
+
+}
+.employees .employe .row .card .card-body .btn {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: none;}
+
+.forimg .over {
+    background-color: rgba(0,0 , 0, .4);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: all 1s;
+}
+.forimg img {
+    transition: 1s;
+}
+.forimg:hover .over {
+    opacity: 1;
+}
+.forimg:hover img {
+    transform: scale(1.1);
+}
+
+
+.subscribe{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: linear-gradient(45deg,#167ce9 0%,#79efb4 100%);
+  margin-top: 30px;
+}
+.subscribe .sub{
+  text-align: center;
+}
+.subscribe .sub h1{
+  font-size: 30px;
+    color: #fff;
+  margin-bottom: 30px;
+  font-weight: 400 !important;
+  text-transform: uppercase;
+
+}
+.subscribe .sub p{
+  color: rgba(255,255,255,.9);
+
+}
+.subscribe .sub .inp{
+  margin-top: 30px;
+  margin-left: 90px; 
+
+}
+.subscribe .sub .inp .bin{
+  display: inline-block;
+  width: 6%;
+  border:1px solid rgb(211, 211, 211);
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  margin-left: -5px;
+}
+.subscribe .sub .inp input{
+  width: 20%;
+display: inline-block;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border:1px solid rgb(211, 211, 211);
+
+  padding: 12px;
+  color: white;
+background: transparent;
+}
+.subscribe .sub .inp button{
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-left: -7px;
+  color: white;
+  border:1px solid rgb(211, 211, 211);
+padding: 12px;
+background: transparent;
+}
+.contact input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #033d94;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.contact{
+  padding-bottom: 40px;
+}
+.contact .cool{
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  
+
+}
+.contact .cool h1{
+  font-size: 50px;
+  font-weight: 400;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  line-height: 1.4;
+}
+.contact .container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* --------------------services page------------------------------- */
+.navbar-dark .navbar-nav{
+  padding-right: 120px;
+
+}
+.navbar-dark{
+  background-color: rgba(2, 85, 180, 0.532);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.navbar-dark .navbar-nav li a{
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-right: 20px;
+  text-decoration: none;
+  background-color: #0040ff79;
+
+  color: white;
+}
+
+
+.sideNav{
+  margin-top: 170px;
+  margin-left: 70px;
+  padding-left: 60px;
+}
+.sideNav .side {
+  float: left;
+  height: 600px;
+  padding-right: 40px;
+}
+.sideNav .side .btn{
+  display: block;
+  margin-top: 25px;
+
+}
+.sideNav .side .btn a{ 
+  background: #eee;
+    border-radius: 3px;
+    font-size: 13px;
+
+  text-decoration: none;
+  color: #666;
+  padding: 20px;
+}
+.sideNav .side .btn a:hover{
+  background-color: rgb(4, 88, 206);
+  color: white;
+  transition: 0.5s;
+}
+.sideNav .side .btn .sea{
+  padding-right: 85px;
+}
+.sideNav .side .btn .seb{
+  padding-right: 50px;
+}
+.sideNav .side .btn .sec{
+  padding-right: 90px;
+}
+
+.commetment .haya{
+  font-size: 20px;
+  color: #666;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.commetment img{
+  
+  margin-bottom: 20px;
+}
+.commetment p{
+  color: #666;
+}

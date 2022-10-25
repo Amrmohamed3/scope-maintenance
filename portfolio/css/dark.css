@@ -1,0 +1,367 @@
+body{
+    font-family: "Source Serif Pro";
+
+}
+a{
+    text-decoration: none;
+    color: #888;
+}
+.enjoy img {
+    width: 100%;
+}
+header .navbar{
+    background-color: #202020 !important;
+}
+header .nav-item{
+    color: #ffffff;
+}
+header a {
+    color: #ffffff !important;
+    margin: 10px;
+}
+header .photo{
+    margin-left: 40px;
+}
+.home{
+    background-image: url("http://www.engage.veented.com/photography-dark/wp-content/uploads/sites/33/2017/04/full-3.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    height: 700px;
+}
+.home .sentence{
+    padding-top: 100px;
+}
+.home .sentence .text{
+    margin-bottom: 18px;
+    color: #ffffff;
+}
+.home h1{
+    font-size: 76px !important;
+}
+.home p{
+    font-size: 22px !important;
+    margin-bottom: 20px;
+}
+.home .sentence .btn{
+    margin-top: 10px;
+    padding: 15px 20px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 4px ;
+    color: #000000;
+    background-color: #ffffff;
+}
+.main{
+    text-align: center;
+    background-color: #161616;
+    padding: 40px;
+    color: #ffffff;
+    padding-left: 139.6px !important;
+    padding-right: 139.4px !important;
+}
+.main .main-text{
+    color: #999;
+}
+.first{
+    background: #1d1d1d;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.first .photo-two{
+    width: 80%;
+}
+.first .words{
+    color: #ffffff;
+    color: #999;
+}
+.first .words p{
+    padding-bottom: 40px;
+}
+.second{
+    background-color: #161616;
+    padding: 60px;
+}
+.second .second-word{
+    text-align: center;
+    padding: 30px;
+}
+.second .second-word .top{
+    margin-bottom: 20px;
+    font-family: "Source Serif Pro";
+    color: #ffffff;
+}
+.second .second-word .top-two{
+    margin-bottom: 40px;
+    font-family: "Source Serif Pro";
+    color: #999;
+}
+.second .second-images{
+    text-align: center;
+}
+.second .second-images ul li{
+    display: inline-block;
+    margin: 15px;
+    color: #ffffff;
+    font-family: "Source Serif Pro";
+}
+.photo-four{
+    margin-bottom: 15px;
+}
+.second .enjoy{
+    position: relative;
+    height: auto;
+    overflow: hidden;
+}
+.enjoy .over {
+    background-color: rgba(0,0 , 0, .7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: all 1s;
+}
+.enjoy img {
+    transition: 1s;
+}
+.enjoy .over .icon {
+    text-align: center;
+    color: #333;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+}
+.enjoy .over .icon-one {
+    text-align: center;
+    color: #333;
+    position: absolute;
+    top: 38%;
+    left: 35%;
+}
+.enjoy .over .icon-one i{
+    background-color: rgba(255,255,255,0.8);
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.enjoy .over .icon i{
+    background-color: rgba(255,255,255,0.8);
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.enjoy:hover .over {
+    opacity: 1;
+}
+.enjoy:hover img {
+    transform: scale(1.1);
+}
+.second .btn{
+    margin-top: 10px;
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 4px;
+    border: none;
+    color: #ffffff;
+    background-color: #333333;
+}
+.second .buttom{
+    text-align: center;
+}
+.footer{
+    background-color: #1d1d1d;
+    padding: 60px;
+}
+.footer .card{
+    background-color: #232323;
+    color: #ffffff;
+}
+.footer .sub-titles{
+    text-align: center;
+}
+.footer .sub-titles .sub-one{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 400;
+}
+.footer .sub-titles .sub-two{
+    font-size: 17px;
+    color: #888;
+}
+.footer .card .card-link:hover{
+    color: rgb(51, 51, 51);
+}
+.footer .card span{
+    margin-left: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.halfpage{
+    background-image: url("http://source.unsplash.com/OeMKiYxFzmU/1920x1300");
+    background-size: 100% 100%;
+    height: 300px;
+    background-attachment: fixed;
+}
+.halfpage-words{
+    text-align: center;
+    font-family: "Source Serif Pro";
+    padding: 40px;
+    color: #ffffff;
+}
+.halfpage .halfpage-words h1{
+    font-size: 42px;
+}
+.halfpage .halfpage-words p{
+    font-size: 18px;
+}
+.first .words h2{
+    color: #ffffff !important;
+    font-family: "Source Serif Pro";
+    font-size: 32px;
+}
+.deal{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #161616;
+    color: #ffffff;
+    text-align: center;
+    font-family: "Source Serif Pro";
+}
+.deal i{
+    background-color: #1d1d1d;
+    padding: 20px;
+    border-radius: 50%;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.deal .deal-parag{
+    color: #888 !important;
+}
+.pre-end{
+    background-color: #1d1d1d;
+    color: #888;
+    padding: 60px;
+}
+footer{
+    text-align: center;
+    background-color: #1b1b1b;
+    padding: 60px;
+}
+footer img {
+    margin-bottom: 15px;
+}
+footer p{
+    margin-bottom: 15px;
+    color: #777;
+    font-size: 13px;
+}
+footer i{
+    background-color: #333333;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 16px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+}
+.fa-facebook-f:hover{
+    background-color: #3b5998 !important;
+}
+.fa-google:hover{
+    background-color: #dd4b39 !important;
+}
+.fa-linkedin-in:hover{
+    background-color: #007bb5 !important;
+}
+.fa-twitter:hover{
+    background-color: #00aced !important;
+}
+.contact-word{
+    background-color: #101010;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.contact-word h1{
+    font-size: 40px;
+    color: #ffffff;
+}
+.contact-word ul li {
+    display: inline-block;
+    padding: 10px;
+    color: #888 !important;
+}
+.data{
+    background-color: #161616;
+    color: #ffffff;
+    padding: 60px;
+}
+.data i{
+    background-color: #333333;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 16px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+}
+.data span{
+    color: #999;
+    margin-left: 10px;
+}
+.data p{
+    color: #999;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.data form{
+    border: 2px solid wheat;
+    padding: 80px;
+    border-radius: 2px;
+}
+iframe{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #161616;
+}
+.about-albums{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #1a1a1a;
+}
+.about-albums h1{
+    color: white;
+    font-size: 40px;
+}
+.about-albums p{
+    color: #999 !important;
+    font-size: 18px;
+}

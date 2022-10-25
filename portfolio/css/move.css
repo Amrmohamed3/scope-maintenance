@@ -1,0 +1,373 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+img{
+    width: 100%;
+}
+header .photo{
+    max-width: 13%;
+}
+header {
+    background:linear-gradient(0deg, rgba(66, 117, 183, 0.801),rgba(66, 117, 183, 0.801)), url(http://www.engage.veented.com/business/wp-content/uploads/sites/114/2017/04/full-3.jpg?id=1034) !important;
+    background-size: 100% 100%;
+    height: 700px;
+    background-color: #4274b7;
+    background-attachment: fixed;
+    position: relative;
+}
+.drop{
+    background-color: #777676;
+    color: #3f3e3e;
+    width: 200px;
+    text-align: left;
+    position: absolute;
+    top: 55px;
+    visibility: hidden;
+    z-index: 11111;
+}
+.drop li{
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+.active:hover .drop{visibility: visible; transition: all 1s;}
+.drop-two{
+    background-color: #777676;
+    color: #3f3e3e;
+    width: 200px;
+    text-align: left;
+    position: absolute;
+    top: 55px;
+    visibility: hidden;
+    z-index: 11111;
+}
+.drop-two li{
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+.active:hover .drop-two{visibility: visible; transition: all 1s;}
+header .middle{
+    position: absolute;
+    top: 30%;
+    right: 15%;
+    left: 15%;
+}
+.btn-outline-dark{
+    outline-style: none;
+    background-color: #ffffff;
+    padding: 15px 20px;
+    font-weight: 600;
+}
+header .in-head{
+    padding-top: 40px;
+}
+header .middle .in-head h1, header .middle .in-head p{
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+header .nav-link{
+    color: #ffffff !important;
+}
+.about{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.about .icons{
+    text-align: center;
+}
+.about .icons i{
+    border-radius: 50%;
+    padding: 30px;
+    background-color: #4274b7;
+    font-size: 22px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.about .icons i, .about .icons h5, .about .icons p{
+    margin-bottom: 15px;
+}
+.main{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f8f8f9;  
+}
+.main .main-sent .media{
+    margin-bottom: 15px;
+}
+.main .main-sent{
+    padding-top: 40px;
+}
+.main .main-sent h3, .main .main-sent p{
+    margin-bottom: 30px;
+}
+.main .main-sent .media i{
+    border-radius: 50%;
+    font-weight: 600;
+    padding: 10px;
+    margin-right: 15px;
+    color: #ffffff;
+    background-color: #4274b7!important;
+}
+.labels{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.labels .in-label .my .my-unit{
+    float: right;
+}
+.labels .in-label .progress{
+    margin-bottom: 10px;
+    height: 8px;
+}
+.labels .in-label .progress .progress-bar{
+   background-color: #4274b7 !important;
+}
+.labels h3{
+    margin-bottom: 15px;
+}
+.moves{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #f8f8f9;  
+}
+.moves .move-on{
+    text-align: center;
+}
+.moves .move-on i{
+    color: rgba(0,0,0,.4);
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+.moves .move-on h5{
+    font-weight: 500;
+    font-size: 52px;
+    color: rgba(0,0,0,.75);
+    margin-bottom: 15px;
+}
+.moves .move-on p{
+    font-size: 20px;
+    color: rgba(0,0,0,.55);
+    margin-bottom: 15px;
+}
+.same{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.same .same-text{
+    text-align: center;
+}
+.same .same-text h3{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.same .same-text p{
+    font-size: 17px;
+    color: #686868;
+    margin-bottom: 40px;
+}
+.same .card{
+    color: #686868;
+    background-color: #f8f8f8;
+}
+.same .card .card-text{
+    margin-bottom: 40px;
+}   
+.same .card h6{
+    font-family: 'Open Sans',arial;
+    font-weight: 400;
+    margin-top: 2px;
+    margin-bottom: 8px;
+}
+
+
+
+
+
+
+.patch{
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    
+}
+.patch .patch-hov img{
+    opacity: 0.7;
+}
+.patch .patch-hov:hover img{
+    opacity: 1;
+}
+.patch .patch-hov {
+    padding-left: 40px;
+}
+.pre-end{
+    background:linear-gradient(0deg, rgba(66, 117, 183, 0.801),rgba(66, 117, 183, 0.801)), url(http://www.engage.veented.com/business/wp-content/uploads/sites/114/2017/04/full-2.jpg?id=1033) !important;
+    background-size: 100% 100%;
+    height: 400px;
+
+    position: relative;
+}
+.pre-end .text{
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    color: #ffffff;
+}
+.pre-end .text h2{
+    font-size: 36px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+.pre-end .text p{
+    margin-bottom: 30px;
+    font-weight: 500;
+    color: rgba(255,255,255,.92);
+    font-size: 20px;
+}
+.pre-footer{
+    padding-top: 40px;
+    background-color: #162231;
+    color: #797979;
+    padding-bottom: 40px;
+}
+.pre-footer li{
+    list-style: none;
+}
+.pre-footer .pre-shoot .pre-title{
+    font-size: 17px;
+    margin-bottom: 25px;
+    font-weight: 500;
+    color: #ffffff !important;
+}
+.pre-footer .pre-shoot i{
+    margin-right: 8px;
+}
+.pre-footer .pre-shoot a{
+    text-decoration: none;
+    color: #797979;
+}
+.pre-footer .pre-shoot li{
+    margin-bottom: 12px;
+}
+footer{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #121b25;
+    color: #58606b;
+}
+footer p{
+    float: left;
+    margin-top: 5px;
+}
+footer .foot-icon{
+    text-align: right;
+}
+footer i{
+    background-color: #0f161f;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 16px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+}
+.fa-facebook-f:hover{
+    background-color: #3b5998 !important;
+}
+.fa-google:hover{
+    background-color: #dd4b39 !important;
+}
+.fa-linkedin-in:hover{
+    background-color: #007bb5 !important;
+}
+.fa-twitter:hover{
+    background-color: #00aced !important;
+}
+@media (max-width: 768px) {
+    header .middle{
+        position: absolute;
+        top: 20%;
+
+    }
+    .btn{
+        margin-bottom: 10px;
+    }
+    header .photo-two{
+        width: 250px;
+    }
+    header .in-head{
+        padding-top: 15px;
+    }
+    header .middle .in-head h1, header .middle .in-head p{
+        margin-bottom: 15px;
+    }
+    .pre-end .text{
+        position: absolute;
+        top: 20%;
+        left: 5%;
+    }
+ 
+}
+.bar-animate{
+    background-color: #4274b7 !important;
+    animation-name:animation-bar ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.bar-animate-two{
+    background-color: #4274b7 !important;
+    animation-name:animation-bar-two ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite; 
+}
+.bar-animate-three{
+    background-color: #4274b7 !important;
+    animation-name:animation-bar-three ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite; 
+}
+.bar-animate-four{
+    background-color: #4274b7 !important;
+    animation-name:animation-bar-four ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite; 
+}
+
+
+@keyframes animation-bar{
+    from {
+        width: 0%;
+    }
+    to{
+        width: 90%;
+    }
+}
+
+@keyframes animation-bar-two{
+    from {
+        width: 0%;
+    }
+    to {
+        width: 80%;
+    }
+}
+@keyframes animation-bar-three{
+    from {
+        width: 0%;
+    }
+    to {
+        width: 60%;
+    }
+}
+@keyframes animation-bar-four{
+    from {
+        width: 0%;
+    }
+    to {
+        width: 40%;
+    }
+}
